@@ -1,0 +1,205 @@
+body {
+  margin: auto;
+	width:75%;
+}
+
+.main-nav,
+.main {
+  position:relative;
+}
+
+.navbar {
+  box-shadow: 0 2px 3px rgba(0,0,0,.2);
+	text-transform:uppercase;
+}
+
+.container {
+		max-width:75%;
+		margin-right:20%;
+		margin-left:20%;
+}
+
+#sahil-singh {
+	font-size: 2em;
+	font-weight: 100;
+	color: #00a871;
+}
+
+.nav-tabs li a {
+		border-radius:0;
+		margin-right:0;
+}
+
+.nav li a {
+		padding-left:70px;
+		padding-right:70px;
+}
+
+.nav-button {
+		font-weight: 400;
+		border: solid;
+		text-align: center;
+		display: inline-block;
+    padding: 0.5em;
+    /*background-color: #79BD9A;*/
+    text-decoration: none;
+    color: white;
+}
+
+.nav-panel li:hover {
+    background-color:#90d1a0;
+}
+
+
+.center-text {
+	text-align: center;
+}
+
+.about {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 2em;
+	margin-top: 10%;
+ 	margin-bottom: 10%;
+}
+
+.about a {
+	color: #708090;
+}
+
+.about a:hover {
+	color: #00a871;
+}
+
+#resume a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 0.6em;
+	color: #00a871;
+	font-weight: 300;
+}
+
+#resume a:hover {
+	color: #708090;
+}
+
+.grey {
+	width: 100%;
+	background-color: #f5f5f5;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.work {
+	margin-bottom: 3%;
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+.item {
+	width: 100%;
+}
+
+.element-top {
+	display: table;
+	width: 100%;
+}
+
+h4 {
+	font-size: 1.5em;
+	text-transform: uppercase;
+	-webkit-margin-after: 0;
+	font-weight: 200;
+	border-bottom: 1px solid #708090;
+}
+
+.description {
+	font-weight: 300;
+}
+
+.description a {
+	text-decoration: none;
+	color: #00a871;
+}
+
+.description a:hover {
+	color: #708090;
+}
+
+.org {
+	color: #00a871;
+	line-height: 0;
+}
+
+.item img {
+	max-width: 100%;
+	margin-top: 10%;
+	-moz-box-shadow: 3px 3px 5px 6px #ccc;
+	-webkit-box-shadow: 3px 3px 5px 6px #ccc;
+	box-shadow: 3px 2px 2px 1px #ccc;
+}
+
+
+.writing {
+	padding-top: 10%;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.writing h4 {
+	border-bottom: none;
+}
+
+.writing .offset {
+	margin-left:15%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.writing a {
+	text-decoration: none;
+	color: #708090;
+}
+
+.writing a:hover {
+	color: #00a871;
+}
+
+ul {
+	list-style-type: square;
+}
+
+ul > li {
+	color: #00a871;
+}
+
+.contact {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 2em;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+.contact a {
+	color: #708090;
+}
+
+.contact a:hover {
+	color: #00a871;
+}
+
+footer {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 1em;
+	text-align: center;
+}
+
+@media (min-width: 1200px) {
+    .container-fluid {
+        max-width: 970px;
+    }
+}
