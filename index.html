@@ -1,37 +1,71 @@
 <!DOCTYPE html>
 <html>
+		<head>
+				<meta name="viewport" content="width=device-width, initial-scale=1">
+				<meta charset="utf-8">
+				<title>Sahil Singh</title>
+				<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic' rel='stylesheet' type='text/css'>
+				<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800' rel='stylesheet' type='text/css'>
+				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+				<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+				<script src="http://cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+				<script src="http://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+				<script src="javascripts/datamaps.world.min.js"></script>
+				<link rel="stylesheet" type="text/css" href="stylesheets/styles.css" />
+		</head>
+		<body>
+				<nav class="navbar navbar-default navbar-fixed-top">
+						<div class="container-fluid">
+								<div class="navbar-header">
+										<a class="navbar-brand" href="septra.github.io" id="sahil-singh">Sahil Singh</a>
+								</div>
+								<div class="nav-panel">
+										<ul class="nav nav-tabs navbar-nav navbar-right">
+												<li>	<a href="#" class="nav-button" onclick="scrollTo('.about')">About</a> </li>
+												<li>	<a href="#" class="nav-button" onclick="scrollTo('.work')">Work</a> </li>
+												<li>	<a href="#" class="nav-button" onclick="scrollTo('.contact')">Contact</a> </li>
+										</ul>
+								</div>
+						</div>
+				</nav>
 
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+				<div class="main">
+						<div class="about">
+								<p class="center-text">economics, data, tech</p>
+								<p class="center-text" id="resume"><a href="#" target="_blank">Resume maybe?</a></p>
+								<div id="mapcontainer" style="position: relative; width: 100%; height: 500px;"></div>
+						</div>
+						<div class="grey">
+								<div class="work">
+										<h1>PROJECTS</h1>
+										<div class="writing">
+												<h1>WRITING</h1>
+												<div class="offset">
+														<strong><h4>1st kind of writing</h4></strong>
+														<ul>
+																<li>Some writing bruh</li>
+																<li>Another writing bruv</li>
+														</ul>
+														<strong><h4>2nd kind of writing</h4></strong>
+														<ul>
+																<li>Writing maybe?</li>
+																<li>Sulful writing</li>
+														</ul>
+												</div>
+										</div>
+								</div>
+						</div>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+						<div class="contact">
+								<p class="center-text">Drop me an <a href="mailto:sahilsingh90@gmail.com">email</a></p>
+						</div>
 
-    <title>Sahil Singh</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <h1 id="project_title">Sahil Singh</h1>
-          <h2 id="project_tagline"></h2>
-
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h1>
-<a id="hello-world" class="anchor" href="#hello-world" aria-hidden="true"><span class="octicon octicon-link"></span></a>
-Wandering <br>
-... or lost?
-        </h1>
-      </section>
-    </div>
-    
-
-  </body>
+						<footer>
+								<p class="center-text"> <hr /> </p>
+								<p>&#169; Sahil Singh</p>
+						</footer>
+				</div>
+				<script src="javascripts/script.js"></script>
+		</body>
 </html>
