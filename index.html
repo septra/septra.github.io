@@ -58,7 +58,31 @@
 															indicators.
 														</p>
 														<p>
-															Will add in more sometime later but for now, here you go!
+															Once downloaded we'll need to transform the csv data to JSON format so that it can be passed to C3. Python to the rescue!
+														</p>
+														<p>
+															Let's define a function that can take in a pandas dataframe and returns back the C3 friendly JSON
+															containing the relevant data for an individual datapoint in the csv.
+														</p>
+														<p>
+															<script src="https://gist.github.com/septra/9b3959a5f44e6dc70119.js"></script>
+														</p>
+														<p>
+															Next, we'll need to import the pandas library, read in the csv file and create a dictionary
+															that maps the different datapoint names to their appropriate pandas dataframes. This is to
+															iterate over them quickly while saving the individual json files.
+														</p>
+														<p>
+															<script src="https://gist.github.com/septra/39be723db1775683eadf.js"></script>
+														</p>
+														<p>
+															Finally, we iterate over the dictionary items and save the json files.
+														</p>
+														<p>
+															<script src="https://gist.github.com/septra/d6362eb09760f35928da.js"></script>
+														</p>
+														<p>
+															Now we can pass the individual json data to C3 for the plotting.
 														</p>
 														<p>
 															The countries we'll be looking at are Malaysia, Taiwan, China, India, Korea and Thailand
