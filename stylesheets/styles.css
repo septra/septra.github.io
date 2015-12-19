@@ -22,7 +22,7 @@ body {
 #sahil-singh {
 	font-size: 2em;
 	font-weight: 100;
-	color: #00a871;
+	color: #6495ed;
 }
 
 .nav-tabs li a {
@@ -143,26 +143,26 @@ h4 {
 }
 
 
-.writing {
+.posts {
 	padding-top: 10%;
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
-.writing h4 {
+.posts h4 {
 	border-bottom: none;
 }
 
-.writing .offset {
+.posts .offset {
 	padding-left: 10%;
 	padding-right: 10%;
 }
 
-.writing a {
+.posts a {
 	text-decoration: none;
 	color: #708090;
 }
 
-.writing a:hover {
+.posts a:hover {
 	color: #00a871;
 }
 
