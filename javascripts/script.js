@@ -29,4 +29,9 @@ projection: 'orthographic',
 projectionConfig: {
           rotation: [-77,0]
         },
+geographyConfig: {
+		//highlightOnHover: false,
+		popupOnHover: false
+}
 });
+map.graticule();
